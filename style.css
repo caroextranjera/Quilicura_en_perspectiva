@@ -67,9 +67,8 @@ nav	a {
 
 footer .btn.btn-link{
   font-family: 'Slabo 27px', serif;
-  font-size: 1rem;
-  color: #000000;
-  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffffff;
 }
 
 header .card-header{
@@ -92,9 +91,6 @@ header i{
 	padding: 0px 60px; 
 }
 
-a.flex-sm-fill.text-sm-center.nav-link.active{
-	background-color: #f26279;
-}
 
 .card-title{
 	font-family: 'Roboto Slab', serif;
@@ -105,6 +101,42 @@ a.flex-sm-fill.text-sm-center.nav-link.active{
 	font-family: 'Slabo 27px', serif;
 
 }
+
+
+div.card.uno{
+	margin-bottom: 15px;
+}
+
+.btn.btn-secondary{
+	background-color: #00b0b2;
+}
+
+#galeria{
+	margin-top: 15px;
+
+}
+
+article .btn.btn-link{
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+
+}
+
+.mb-0{
+	text-align: center!important;
+}
+
+div.card-header.dos{
+	background-color: #87d300;
+}
+
+
+
+
+
+
+
 
 @media (max-width: 1200px){
      
@@ -137,3 +169,4 @@ a.flex-sm-fill.text-sm-center.nav-link.active{
 	font-size: 0.9rem;
    }
 }
+
