@@ -1,0 +1,215 @@
+.container-fluid{
+	background-color: #dbe4f0;
+}
+
+header .card-header{
+	font-size: 1.2rem;
+	background-color: #0000FF;
+	color: #ffffff;
+}
+
+header .card-body{
+	padding: 5px;
+	background-color: #;
+}
+
+
+header .card-title{
+	font-size: 4rem;
+	margin-bottom: 0px;
+	color: #e6d72a;
+}
+
+header .card-text{
+	font-size: 1.8rem;
+	color: #;
+}
+
+header i{
+	text-align: center;
+	font-size: 2rem;
+	padding: 0px 60px; 
+	background-color: #;
+}
+
+
+nav.nav.nav-pills{
+	background-color:  #DC143C;
+	
+}
+
+
+nav	a {
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.btn.btn-primary{
+	background-color: #e95191;
+	border-color: #e95191;
+}
+
+.btn.btn-primary.btn-sm{
+	background-color: #f52549;
+	border-color: #cac612;
+}
+
+div.card.text-white.bg-info.mb-3{
+	background-color: #ff4200!important;
+}
+
+.carousel-caption{
+	padding: 0px;
+}
+
+.card.w-85{
+	color: #000000;
+}
+
+.carousel-control-next {
+	opacity: 5;
+}
+
+.carousel-control-prev {
+	opacity: 5;
+}
+
+.fas {
+	font-size: 3rem;
+	color: #e95191;
+}
+
+.dos img{
+	height: 230px;
+}
+
+.bg-info{
+	margin-top: 15px;
+	height: 240px;
+}
+
+.row{
+	margin-top: 15px;
+}
+
+.modal{
+	color: #000000;
+}
+
+.btn.btn-secondary{
+	background-color: #00b0b2;
+}
+
+footer{
+	margin-top: 15px;
+	text-align: center;
+}
+
+i {
+	text-align: center;
+	font-size: 6rem;
+	padding: 0px 60px; 
+}
+
+
+footer .btn.btn-link{
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+footer .card-header{
+	background-color: pink;
+}
+
+.card-title{
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+.card-text{
+	font-family: 'Slabo 27px', serif;
+}
+
+div.card.uno{
+	margin-bottom: 15px;
+}
+
+#galeria{
+	margin-top: 15px;
+}
+
+article .btn.btn-link{
+  font-family: 'Slabo 27px', serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.mb-0{
+	text-align: center!important;
+}
+
+div.card-header.dos{
+	background-color: #87d300;
+}
+
+#mapa{
+	width: 1000px;
+	height: 400px;
+}
+
+.video{
+	width: 100%;
+	height: 300px;
+}
+
+
+@media (max-width: 1200px){
+
+            i {
+             padding: 0px 30px;
+	         font-size: 4rem;
+	        }
+
+            #mapa{
+	         width: 800px;
+	         height: 350px;
+            }
+}
+
+
+@media (max-width: 800px){
+
+            i {
+      	       padding: 0px 10px;
+	           font-size: 2rem;
+	        }
+
+	        header i{
+		       padding: 0px 10px;
+	        }
+
+	        header .card-header{
+	           font-size: 0.8rem;
+            }
+
+            header .card-title{
+	            font-size: 2rem;
+	            margin-bottom: 0px;
+            }
+
+            header .card-text{
+	            font-size: 0.9rem;
+            }
+
+            nav a{
+    	        font-size: 1rem;
+    	    } 
+
+            #mapa{
+	            width: 400px;
+	            height: 200px;
+            }
+}
+
