@@ -18,30 +18,38 @@
           <div class="card-body">
             <div class="card-title">Vive Quilicura</div>
               <p class="card-text">Conoce los mejores panoramas de nuestra comuna </p>
-              <p> <i class="fab fa-twitter"></i><i class="fab fa-facebook-square"></i>  <i class="fab fa-instagram"></i></p>
+              <p> <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter"></i></a><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a> <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></p>
             </div>
           </div>
-            <nav class="nav nav-pills">
+
+        <!--  <nav class="nav nav-pills">
           
-              <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Inicio</a>
-              <a class="flex-sm-fill text-sm-center nav-link" href="cultura.html">Cultura</a>
-              <a class="flex-sm-fill text-sm-center nav-link" href="deporte.html">Deporte</a>
-              <a class="flex-sm-fill text-sm-center nav-link" href="panoramas.html">Panoramas</a>
-              <a class="flex-sm-fill text-sm-center nav-link" href="capacitaciones.html">Capacitaciones</a>
-              <a class="flex-sm-fill text-sm-center nav-link" href="lugares.html">Lugares</a>
+            <ul>
+
+          <li class="flex-sm-fill text-sm-center nav-link" ><a href="index.html">Inicio</a></li>
+          <li class="flex-sm-fill text-sm-center nav-link" ><a href="cultura.html">Cultura</a></li>
+          <li class="flex-sm-fill text-sm-center nav-link" ><a href="deporte.html">Deporte</a></li>
+          <li class="flex-sm-fill text-sm-center nav-link" ><a href="panoramas.html">Panoramas</a></li>
+          <li class="flex-sm-fill text-sm-center nav-link" ><a href="capacitaciones.html">Capacitaciones</a>
+          <li class="flex-sm-fill text-sm-center nav-link" ><a href="lugares.html">Lugares</a><li>
+            </ul>
+            </nav> -->
+            
+ <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
+                  <?php wp_nav_menu(array(
+                    'theme_location'  => 'header-menu',
+                    'container'       => 'nav',
+                    'container_class' => 'nav nav-pills', 
+                    'items_wrap' => '<li flex-lg-fill text-lg-center nav-link>%3$s</li>',
+                  ));  ?>
+                <?php } ?>
               
-            </nav>
 
-                 <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
-                   <?php wp_nav_menu( array( 
-                     'theme_location'  => 'header-menu',
-                       'container'    => 'nav',
-                         'container_class'   => 'nav nav-pills',
-                            'items_wrap' => '<a class="flex-sm-fill text-sm-center nav-link">%3$s</a>'
-                            )
-                   ); ?>
-                 <?php } ?>
 
+
+      
+
+            
 
 
 
